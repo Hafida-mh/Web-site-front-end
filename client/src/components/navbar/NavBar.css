@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navContainer {
+    border: 1px hidden black;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: white;
+    z-index: 2000;
+}
+
+.navContent {
+    border: 1px hidden red;
+    height: 100%;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linkToClient,
+.linkToConnexion {
+    text-decoration: none;
+    color: white;
+}
+
+
+.linkToConnexion {
+    color: black;
+}
+
+.linkToConnexion:hover,
+.linkToClient:hover {
+    color: white;
+}
+
+.navItem,
+.items {
+    border: 1px hidden green;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.logo {
+    border: 1px hidden orange;
+    height: 70px;
+    width: 90px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.items {
+    margin-left: 30px;
+}
+
+.item {
+    margin: 10px;
+    font-size: 1.15em;
+}
+
+.item a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Buttons */
+
+.navButton {
+    border: 1px hidden pink;
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.burgerMenuSvg {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.navButton .inscription+.connexion {
+    margin: 20px;
+}
+
+.navButton .inscription,
+.navButton .connexion{
+    border: 1px solid #0aa7b9;
+    height: 50px;
+    width: 115px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+}
+
+.navButton .inscription {
+    background-color: #0aa7b9;
+    color: white;
+}
+
+.navButton .burgerButton {
+    border: none;
+    display: none;
+}
+
+
+.connexion:hover {
+    background-color: #0aa7b9;
+    color: white;
+}
+
+/* navbar responsive  */
+
+.logo.responsive {
+    height: 40px;
+    width: 60px;
+    margin-top: 30px;
+}
+.navResponsive {
+    border: 1px hidden black;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    margin-top: 470px;
+    background-color: white;
+
+}
+
+.navResponsiveContent {
+    border: 1px hidden blue;
+    height: 310px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.itemsResponsive .item {
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+
+.buttonResponsive {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttonResponsive .inscription,
+.buttonResponsive .connexion {
+    border: 1px hidden black;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 1.1em;
+
+}
+
+.buttonResponsive .connexion {
+    border: 1px solid black;
+}
+
+.buttonResponsive .inscription {
+    background-color: #0ea8ab;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.buttonResponsive .inscription+.connexion {
+    margin-top: 10px;
+}
+
+/* RESPONSIF */
+
+@media screen and (max-width : 931px) {
+
+    .navButton .inscription,
+    .navButton .connexion,
+    .items {
+        display: none;
+    }
+
+    .navContent {
+        width: 100%;
+    }
+
+    .navButton .burgerButton {
+        border: none;
+        display: inline-flex;
+    }
+}
+
+@media screen and (max-width : 537px) {
+    .navResponsive {
+        border: 1px hidden black;
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        margin-top: 480px;
+
+
+    }
+}

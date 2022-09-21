@@ -1,0 +1,865 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/** FONTS **/
+
+@font-face {
+    font-family: "MYRIADPRO";
+    src: url("../../MYRIADPRO-SEMIBOLD.OTF") format("otf"),
+        url("../../MYRIADPRO-SEMIBOLD.OTF") format("otf");
+}
+
+
+@font-face {
+    font-family: "FRANK";
+    src: url("../../Frank-Bold.ttf") format("ttf"),
+        url("../../Frank-Bold.ttf") format("ttf");
+}
+
+
+.home {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    font-family: "MYRIADPRO";
+}
+
+
+.navHome {
+    border: 1px hidden red;
+    height: 90px;
+    width: 100%;
+
+}
+
+.slide {
+    border: 1px hidden blue;
+    height: 470px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.slideTitle {
+
+    border: 1px hidden blue;
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slideTitle p {
+    width: 90%;
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+.slideTitle h1 {
+    font-size: 5.5em;
+    font-weight: 700;
+    font-family: "FRANK";
+}
+
+.logoSlide {
+    border: 1px hidden yellow;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgLogo {
+    width: 500px;
+    height: 100%;
+}
+
+.slideTxt,
+.btnSlide {
+    margin-top: 30px;
+}
+
+.btnSlide {
+    box-shadow: 6px 10px 15px 0px rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+.btnSlide button {
+    border: 1px hidden orange;
+    width: 130px;
+    height: 50px;
+    font-size: 1.5em;
+    background-color: none;
+    background-color: #0aa7b9;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+
+.bgImg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:  100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+/** SECTION 2 **/
+.section2 {
+    border: 1px hidden pink;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.imgSec2 {
+    border: 1px hidden orange;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgSec2 img {
+    object-fit: cover;
+    height: 100%;
+    width: 500px;
+}
+
+.sec2Txt {
+    border: 1px hidden violet;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.sec2Txt h1 {
+    font-size: 4em;
+
+    line-height: 1;
+    font-weight: 700;
+    font-family: "FRANK";
+    text-align: left;
+}
+
+.sec2Txt li {
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.imgSec2 .pc {
+    margin-top: 100px;
+
+    margin-right: 180px;
+    height: 480px;
+}
+
+
+.imgSec2 .cercle {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+    z-index: -1;
+    top: 100px;
+}
+
+.sec2Title {
+    color: #0aa7b9;
+    font-size: 0.4em;
+    text-align: center;
+}
+
+
+
+/** SECTION 3 **/
+
+
+.section3 {
+    border: 1px hidden pink;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.section3Container {
+    border: 1px hidden black;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section3Elem {
+    border: 1px hidden red;
+    height: 690px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section3ElemContainer {
+    border: 1px hidden orange;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+
+.sec3img {
+    border: 1px hidden black;
+    height: 180px;
+    width: 100%;
+}
+
+.paper {
+    height: 11em;
+    border: 1px hidden black;
+}
+
+.brain {
+    height: 11em;
+}
+
+.sec3Title {
+    border: 1px hidden red;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 2em;
+    color: #0aa7b9;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "FRANK";
+}
+
+.sec3Txt {
+    border: 1px hidden blue;
+    height: auto;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+
+.boule {
+    position: absolute;
+    left: 0;
+    top: 350px;
+    height: 490px;
+}
+
+
+
+/** SECTION 4 **/
+
+.section4 {
+    border: 1px hidden orange;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.bgSec4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    object-fit: cover;
+    height: 100%;
+    z-index: -444;
+}
+
+.sec4Title {
+    border: 1px hidden blue;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 800;
+    color: #0aa7b9;
+    text-align: center;
+    font-family: "FRANK";
+}
+
+
+.sec4Steps {
+    border: 1px hidden green;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.sec4StepsContainer {
+    border: 1px hidden black;
+    height: 75%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.sec4Item {
+    border: 1px hidden red;
+    height: 380px;
+    width: 270px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 6px 10px 15px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+
+
+.sec4TitleItem {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+
+.sec4Img {
+    border: 1px hidden yellow;
+    height: 260px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.sec4TitleItem.abonnement {
+    width: 90%;
+}
+
+
+
+/**  SECTION 5 **/
+
+.section5 {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+
+.sec5Container {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.section5 .boul4 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 460px;
+
+    z-index: -55;
+}
+
+
+.section5 .boul5 {
+    position: absolute;
+    left: 0;
+    top: 130px;
+    width: 300px;
+    height: 460px;
+    z-index: -55;
+}
+
+
+.secContent {
+    border: 1px hidden red;
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+
+.subscrItem {
+    border: 1px hidden blue;
+    height: auto;
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 6px 10px 15px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+.subscrItem.sub3 {
+    background-color: white;
+}
+
+.subscrItemTitle {
+    border: 1px hidden orange;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #8ecae6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: "FRANK";
+}
+
+
+.subscrItemTitle.sub2 {
+    background-color: #21a0bd;
+}
+
+.triangle.tri2 {
+    border-bottom: 35px solid #21a0bd;
+}
+
+
+.subscrItemTitle.sub3 {
+    background-color: #023047;
+}
+
+.triangle.tri3 {
+    border-bottom: 35px solid #023047;
+}
+
+.triangle {
+    height: 0;
+    width: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 35px solid #8ecae6;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0;
+    top: 145px;
+}
+
+.title1 {
+    font-size: 1.42em;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+.title2 {
+
+    color: white;
+    font-weight: 600;
+}
+
+
+.prices {
+    border: 1px hidden black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.price1 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.price2 {
+
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+
+
+.line {
+    border: 0.7px solid gray;
+    width: 120px;
+    height: 0;
+    margin-top: 10px;
+}
+
+
+.formule,
+.optionsFormule {
+    border: 1px hidden pink;
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.formuleContent,
+.optionsFormuleContent {
+    border: 1px hidden orange;
+    width: 80%;
+    height: auto;
+    text-align: left;
+}
+
+
+.formule1Title {
+    color: #8ecae6;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.formuleTxt {
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+.optionsTitle {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #8ecae6;
+}
+
+.listOptions {
+    font-weight: 600;
+    font-size: 1, 45em;
+    text-decoration-color: #0aa7b9;
+}
+
+.listOptionsContent ul {
+
+    color: #0aa7b9;
+}
+
+.listOptionsContent .listOptions {
+
+    color: black;
+
+}
+
+
+.line.bottom {
+    margin-bottom: 50px;
+}
+
+.secTxt5 {
+    font-size: 4em;
+    font-weight: 700;
+    color: #0aa7b9;
+}
+
+
+
+
+/**  SECTION 6 **/
+.section6 {
+    border: 1px hidden black;
+    height: 350px;
+    width: 100%;
+    margin-top: 150px;
+    background-color: #e8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.sect6Title {
+    font-size: 4em;
+    font-weight: 700;
+    color: #08a7bb;
+    text-align: center;
+    line-height: 1;
+    font-family: "FRANK";
+}
+
+.btnSec6 {
+    font-size: 1.56em;
+    border: 1px hidden black;
+    width: 170px;
+    height: 60px;
+    background-color: #08a7bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 6px 10px 15px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+
+.btnSec6 button {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+/** RESPONSIVE **/
+@media screen and (max-width : 1241px) {
+    .imgLogo {
+        width: 400px;
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width : 1334px) {
+    .imgSec2 .pc {
+        margin-top: 100px;
+        margin-right: 120px;
+        height: 480px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width : 1197px) {
+    .imgSec2 .pc {
+        margin-top: 100px;
+
+        margin-right: 50px;
+        height: 400px;
+    }
+
+    .imgSec2 .cercle {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+        z-index: -1;
+        top: 100px;
+    }
+}
+
+
+@media screen and (max-width : 931px) {
+    .imgSec2 {
+        display: none;
+    }
+
+
+    .sec2Txt {
+        border: 1px hidden violet;
+        width: 95%;
+    }
+
+    .section3Container,
+    .sec4StepsContainer {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section3Elem {
+
+        height: auto;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sec3Txt {
+        text-align: center;
+    }
+
+    .sec3Title,
+    .sec3img {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .section3Elem {
+        margin-top: 50px;
+
+    }
+}
+
+
+
+
+@media screen and (max-width : 925px) {
+    .slideTitle h1 {
+        font-size: 4.5em;
+     
+        font-family: "FRANK";
+    }
+}
+
+
+
+@media screen and (max-width : 815px) {
+    .slide {
+        height: auto;
+    }
+    .slideTitle h1 {
+        font-size: 3.5em;
+        font-family: "FRANK";
+    }
+}
+
+@media screen and (max-width : 735px) {
+    .logoSlide {
+    display: none;
+    }
+
+    .slideTitle {
+        width: 94%;
+    }
+}
+
+
+@media screen and (max-width : 429px) {
+    .title1.fondamentals, .title2.fondamentals {
+        margin-left: 10px;
+    }
+   
+}
+@media screen and (max-width : 377px) {
+    .slideTitle h1 {
+        font-size: 3em;
+        font-family: "FRANK";
+    } 
+}
+
+
+@media screen and (max-width : 364px) {
+    .sec2Txt h1 {
+        font-size: 3em;
+        margin-left: 10px;
+    }
+    .slideTitle p {
+        width: 100%;
+        font-size: 2em;
+        line-height: 1.2;
+    }
+}
+
+
+
+@media screen and (max-width : 1331px) {
+    .subscrItem {
+        border: 1px hidden blue;
+        height: auto;
+        width: 320px;
+        border-radius: 20px;
+        box-shadow: 6px 10px 15px 0px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+@media screen and (max-width : 1124px) {
+    .secContent {
+        flex-direction: column;
+    }
+
+    .subscrItem {
+        border: 1px hidden blue;
+        height: auto;
+        width: 400px;
+        border-radius: 20px;
+        box-shadow: 6px 10px 15px 0px rgba(0, 0, 0, 0.5);
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width : 429px) {
+    .subscrItem {
+        width: 300px;
+    }
+
+    .boul5 {
+        display: none;
+    }
+
+
+    .secTxt5,
+    .sect6Title {
+        font-size: 3em;
+    }
+}

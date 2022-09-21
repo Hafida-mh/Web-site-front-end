@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "MYRIADPRO";
+  
+}
+
+@font-face {
+    font-family: "MYRIADPRO";
+    src: url("../../MYRIADPRO-SEMIBOLD.OTF") format("otf"),
+        url("../../MYRIADPRO-SEMIBOLD.OTF") format("otf");
+}
+
+.signin{
+    border: 1px solid #eef2f5;
+    height: auto;
+    width: 100%;
+    background-color: #eef2f5;
+}
+
+
+/** NAVBAR **/
+
+.navbarcontainer {
+    border: 1px hidden black;
+    height: 90px;
+    width: 100%;
+    box-shadow: 6px 10px 15px 0px rgba(0,0,0,0.5);
+}
+
+
+
+/** SECTION LOGO **/
+.sectionLogo {
+    border: 1px hidden black;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.logoCedre{
+    border: 1px hidden red;
+    height: 150px;
+    width: 300px;
+}
+
+
+.logoCedre img{
+    height: 150px;
+   width: 300px;
+    object-fit: cover;
+}
+/****/
+
+
+
+
+/** FORM **/
+.formContainer{
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.formContent{
+    border: 1px hidden red;
+    height: auto;
+    width: 550px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 6px 10px 15px 0px rgba(0,0,0,0.5);
+}
+
+
+.formInner{
+    border: 1px hidden blue;
+    height: 100%;
+    width: 440px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttonsConnexion{
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btnConnexion {
+    border: 1px hidden red;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnConnexion.face {
+    font-size: 0.9em;
+    justify-content: flex-start;
+    background-color: #4066b1;
+    border-radius: 5px;
+    color: white;
+}
+.faceimg {
+    width: 30px;
+    height: 30px;
+}
+.titleForm {
+    font-size: 2.4em;
+    width: 100%;
+    text-align: center;
+}
+
+.formItem{
+    border: 1px hidden orange;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+align-items: center;
+
+}
+
+.inputSignup{
+    border: 1px solid black;
+    height: 57px;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 1.3em;
+    outline: none;
+}
+
+
+.formItems{
+    border: 1px hidden yellow;
+    width: 100%;
+    height: auto;
+
+}
+
+.formItems.first {
+    margin-top: 40px;
+}
+
+.formItemsTitle{
+    font-size: 1.3em;
+}
+
+.formInputs{
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.formInputsItems{
+    border: 1px hidden black;
+    height: auto;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+
+.input {
+    border: 1px solid black;
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    outline: none;
+}
+/****/
+
+
+/** CAPTCHA **/
+.captchaContainer, .condition {
+    border: 1px hidden orange;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.captcha{
+    border: none;
+    box-shadow: 6px 10px 15px 0px rgba(0,0,0,0.5);
+}
+/****/
+
+
+.condition {
+    flex-direction: column;
+    font-size: 1.1em;
+}
+
+.checkConditions{
+   border: 1px hidden black;
+   width: auto;
+   height: auto;
+   display: flex;
+   justify-content: flex-start;
+   width: 100%;
+
+}
+
+
+
+.condition .line {
+    border-top: 1px solid gray;
+    height: 0;
+    width: 420px;
+    margin-top: 50px;
+}
+.checkbox {
+    margin-top: 1px;
+}
+
+.conditionTitle {
+    margin-left: -125px;
+    font-weight: 600;
+}
+
+.section{
+    color: #0aa7b9;
+}
+
+.formButton{
+    border: 1px hidden blue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+.buttonSignup {
+    width: 390px;
+    height: 40px;
+    border: 1px hidden black;
+    border-radius: 9px;
+   
+    background-color: #0aa7b9;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 700;
+}
+
+.link{
+    border: 1px hidden black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ff{
+    border: 1px hidden violet;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    border: 1px hidden black;
+    width : 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: #0b8897;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.btnConnexion.google {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.googleLogo {
+    width: 27px;
+}
+/** FOOTER **/
+ .footersignupcontainer{
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    margin-top:150px;
+}
+/****/
+
+
+
+
+
+/** RESPONSIVE **/
+@media screen and (max-width : 959px) {
+    .formContent{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 918px) {
+    .formInputs{
+       flex-direction: column;
+    }
+    .formInputsItems {
+        width: 100%;
+    }
+    .formInner{
+        width: 95%;
+    }
+    
+}
+
+
+@media screen and (max-width : 378px) {
+    .checkConditions {
+        margin-left: 20px;
+    }
+    .conditionTitle {
+        margin-left: -125px;
+    }
+}
+
+@media screen and (max-width : 357px) {
+    .formInner{
+        width: 97%;
+       
+    }
+
+  
+}
+
