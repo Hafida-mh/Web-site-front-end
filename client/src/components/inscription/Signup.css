@@ -4,13 +4,11 @@
     font-family: "MYRIADPRO";
 }
 
-
 @font-face {
     font-family: "MYRIADPRO";
     src: url("../../MYRIADPRO-SEMIBOLD.OTF") format("otf"),
         url("../../MYRIADPRO-SEMIBOLD.OTF") format("otf");
 }
-
 
 .signup{
     border: 1px solid #eef2f5;
@@ -30,8 +28,6 @@
     box-shadow: 6px 10px 15px 0px rgba(0,0,0,0.5);
 }
 
-
-
 /** SECTION LOGO **/
 .sectionLogo {
     border: 1px solid black;
@@ -49,16 +45,11 @@
     width: 300px;
 }
 
-
 .logoCedre img{
     height: 150px;
    width: 300px;
     object-fit: cover;
 }
-/****/
-
-
-
 
 /** FORM **/
 .formContainer{
@@ -83,7 +74,6 @@
     box-shadow: 6px 10px 15px 0px rgba(0,0,0,0.5);
 }
 
-
 .formInner{
     border: 1px hidden blue;
     height: 100%;
@@ -107,7 +97,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-align-items: center;
+    align-items: center;
 }
 
 .inputSignup{
@@ -119,14 +109,12 @@ align-items: center;
     outline: none;
 }
 
-
 .formItems{
     border: 1px hidden yellow;
     width: 100%;
     height: auto;
     margin-top: 10px;
 }
-
 
 .formItemsTitle{
     font-size: 1.3em;
@@ -158,8 +146,6 @@ align-items: center;
     border-radius: 10px;
     outline: none;
 }
-/****/
-
 
 /** CAPTCHA **/
 .captchaContainer, .condition {
@@ -176,8 +162,6 @@ align-items: center;
     border: none;
     box-shadow: 6px 10px 15px 0px rgba(0,0,0,0.5);
 }
-/****/
-
 
 .condition {
     flex-direction: column;
@@ -220,7 +204,6 @@ align-items: center;
     margin-top: 25px;
 }
 
-
 .buttonSignup {
     width: 370px;
     height: 40px;
@@ -251,7 +234,6 @@ align-items: center;
     justify-content: center;
 }
 
-
 /** FOOTER **/
 .signup .footersignupcontainer{
     border: 1px hidden black;
@@ -259,11 +241,6 @@ align-items: center;
     width: 100%;
     margin-top: 50px;
 }
-/****/
-
-
-
-
 
 /** RESPONSIVE **/
 @media screen and (max-width : 959px) {
@@ -282,9 +259,7 @@ align-items: center;
     .formInner{
         width: 95%;
     }
-    
 }
-
 
 @media screen and (max-width : 378px) {
     .checkConditions {
@@ -298,9 +273,5 @@ align-items: center;
 @media screen and (max-width : 357px) {
     .formInner{
         width: 97%;
-       
     }
-
-  
 }
-
