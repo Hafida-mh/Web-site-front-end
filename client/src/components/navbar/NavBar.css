@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 .navContainer {
     border: 1px hidden black;
     height: 90px;
@@ -31,7 +30,6 @@
     color: white;
 }
 
-
 .linkToConnexion {
     color: black;
 }
@@ -51,7 +49,6 @@
     justify-content: flex-start;
 }
 
-
 .logo {
     border: 1px hidden orange;
     height: 70px;
@@ -63,7 +60,6 @@
     width: 100%;
     object-fit: cover;
 }
-
 
 .items {
     margin-left: 30px;
@@ -80,7 +76,6 @@
 }
 
 /* Buttons */
-
 .navButton {
     border: 1px hidden pink;
     height: 100%;
@@ -89,17 +84,19 @@
     align-items: center;
     justify-content: center;
 }
+
 .burgerMenuSvg {
     height: 50px;
     width: 50px;
     margin-right: 10px;
 }
+
 .navButton .inscription+.connexion {
     margin: 20px;
 }
 
 .navButton .inscription,
-.navButton .connexion{
+.navButton .connexion {
     border: 1px solid #0aa7b9;
     height: 50px;
     width: 115px;
@@ -120,19 +117,18 @@
     display: none;
 }
 
-
 .connexion:hover {
     background-color: #0aa7b9;
     color: white;
 }
 
 /* navbar responsive  */
-
 .logo.responsive {
     height: 40px;
     width: 60px;
     margin-top: 30px;
 }
+
 .navResponsive {
     border: 1px hidden black;
     height: 400px;
@@ -140,7 +136,6 @@
     position: absolute;
     margin-top: 470px;
     background-color: white;
-
 }
 
 .navResponsiveContent {
@@ -150,14 +145,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
 }
 
 .itemsResponsive .item {
     margin-top: 15px;
     font-size: 1.1em;
 }
-
 
 .buttonResponsive {
     border: 1px hidden black;
@@ -179,7 +172,6 @@
     justify-content: center;
     border-radius: 8px;
     font-size: 1.1em;
-
 }
 
 .buttonResponsive .connexion {
@@ -192,21 +184,18 @@
     margin-top: 30px;
 }
 
-
 .buttonResponsive .inscription+.connexion {
     margin-top: 10px;
 }
 
 /* RESPONSIF */
-
 @media screen and (max-width : 931px) {
-
     .navButton .inscription,
     .navButton .connexion,
     .items {
-        display: none;
+      display: none;
     }
-
+    
     .navContent {
         width: 100%;
     }
@@ -224,7 +213,5 @@
         width: 300px;
         position: absolute;
         margin-top: 480px;
-
-
     }
 }
