@@ -1,25 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
-
 /** FONTS **/
-
 @font-face {
     font-family: "MYRIADPRO";
     src: url("../../MYRIADPRO-SEMIBOLD.OTF") format("otf"),
         url("../../MYRIADPRO-SEMIBOLD.OTF") format("otf");
 }
 
-
 @font-face {
     font-family: "FRANK";
     src: url("../../Frank-Bold.ttf") format("ttf"),
         url("../../Frank-Bold.ttf") format("ttf");
 }
-
 
 .home {
     border: 1px hidden black;
@@ -28,12 +23,10 @@
     font-family: "MYRIADPRO";
 }
 
-
 .navHome {
     border: 1px hidden red;
     height: 90px;
     width: 100%;
-
 }
 
 .slide {
@@ -45,11 +38,9 @@
     align-items: center;
     justify-content: space-around;
     position: relative;
-
 }
 
 .slideTitle {
-
     border: 1px hidden blue;
     width: 60%;
     display: flex;
@@ -95,8 +86,6 @@
     margin-bottom: 40px;
 }
 
-
-
 .btnSlide button {
     border: 1px hidden orange;
     width: 130px;
@@ -107,7 +96,6 @@
     color: white;
     font-weight: 700;
     border-radius: 10px;
-    
 }
 
 .bgImg {
@@ -121,8 +109,6 @@
     z-index: -1;
 }
 
-
-
 /** SECTION 2 **/
 .section2 {
     border: 1px hidden pink;
@@ -132,7 +118,6 @@
     display: flex;
     justify-content: space-around;
 }
-
 
 .imgSec2 {
     border: 1px hidden orange;
@@ -160,10 +145,8 @@
     margin-top: 50px;
 }
 
-
 .sec2Txt h1 {
     font-size: 4em;
-
     line-height: 1;
     font-weight: 700;
     font-family: "FRANK";
@@ -182,7 +165,6 @@
     height: 480px;
 }
 
-
 .imgSec2 .cercle {
     position: absolute;
     left: 0;
@@ -200,11 +182,7 @@
     text-align: center;
 }
 
-
-
 /** SECTION 3 **/
-
-
 .section3 {
     border: 1px hidden pink;
     height: auto;
@@ -215,7 +193,6 @@
     justify-content: center;
     position: relative;
 }
-
 
 .section3Container {
     border: 1px hidden black;
@@ -233,7 +210,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .section3ElemContainer {
@@ -244,9 +220,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-
 }
-
 
 .sec3img {
     border: 1px hidden black;
@@ -284,7 +258,6 @@
     font-size: 1.5em;
 }
 
-
 .boule {
     position: absolute;
     left: 0;
@@ -292,10 +265,7 @@
     height: 490px;
 }
 
-
-
 /** SECTION 4 **/
-
 .section4 {
     border: 1px hidden orange;
     height: auto;
@@ -326,7 +296,6 @@
     text-align: center;
     font-family: "FRANK";
 }
-
 
 .sec4Steps {
     border: 1px hidden green;
@@ -365,13 +334,10 @@
     background-color: white;
 }
 
-
-
 .sec4TitleItem {
     font-size: 1.3em;
     font-weight: 700;
 }
-
 
 .sec4Img {
     border: 1px hidden yellow;
@@ -382,23 +348,17 @@
     justify-content: center;
 }
 
-
-
 .sec4TitleItem.abonnement {
     width: 90%;
 }
 
-
-
 /**  SECTION 5 **/
-
 .section5 {
     border: 1px hidden black;
     height: auto;
     width: 100%;
     position: relative;
 }
-
 
 .sec5Container {
     border: 1px hidden black;
@@ -417,10 +377,8 @@
     top: 0;
     width: 300px;
     height: 460px;
-
     z-index: -55;
 }
-
 
 .section5 .boul5 {
     position: absolute;
@@ -431,7 +389,6 @@
     z-index: -55;
 }
 
-
 .secContent {
     border: 1px hidden red;
     height: auto;
@@ -441,7 +398,6 @@
     justify-content: space-around;
     margin-top: 80px;
 }
-
 
 .subscrItem {
     border: 1px hidden blue;
@@ -471,7 +427,6 @@
     font-family: "FRANK";
 }
 
-
 .subscrItemTitle.sub2 {
     background-color: #21a0bd;
 }
@@ -479,7 +434,6 @@
 .triangle.tri2 {
     border-bottom: 35px solid #21a0bd;
 }
-
 
 .subscrItemTitle.sub3 {
     background-color: #023047;
@@ -507,14 +461,10 @@
     font-weight: 700;
 }
 
-
-
 .title2 {
-
     color: white;
     font-weight: 600;
 }
-
 
 .prices {
     border: 1px hidden black;
@@ -535,12 +485,9 @@
 }
 
 .price2 {
-
     font-size: 1.6em;
     font-weight: 600;
 }
-
-
 
 .line {
     border: 0.7px solid gray;
@@ -548,7 +495,6 @@
     height: 0;
     margin-top: 10px;
 }
-
 
 .formule,
 .optionsFormule {
@@ -570,7 +516,6 @@
     height: auto;
     text-align: left;
 }
-
 
 .formule1Title {
     color: #8ecae6;
@@ -597,16 +542,12 @@
 }
 
 .listOptionsContent ul {
-
     color: #0aa7b9;
 }
 
 .listOptionsContent .listOptions {
-
     color: black;
-
 }
-
 
 .line.bottom {
     margin-bottom: 50px;
@@ -617,9 +558,6 @@
     font-weight: 700;
     color: #0aa7b9;
 }
-
-
-
 
 /**  SECTION 6 **/
 .section6 {
@@ -633,7 +571,6 @@
     justify-content: center;
     flex-direction: column;
 }
-
 
 .sect6Title {
     font-size: 4em;
@@ -666,8 +603,6 @@
     font-weight: 700;
 }
 
-
-
 /** RESPONSIVE **/
 @media screen and (max-width : 1241px) {
     .imgLogo {
@@ -675,7 +610,6 @@
         height: 100%;
     }
 }
-
 
 @media screen and (max-width : 1334px) {
     .imgSec2 .pc {
@@ -685,17 +619,9 @@
     }
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width : 1197px) {
     .imgSec2 .pc {
         margin-top: 100px;
-
         margin-right: 50px;
         height: 400px;
     }
@@ -712,13 +638,11 @@
     }
 }
 
-
 @media screen and (max-width : 931px) {
     .imgSec2 {
         display: none;
     }
-
-
+    
     .sec2Txt {
         border: 1px hidden violet;
         width: 95%;
@@ -731,15 +655,13 @@
     }
 
     .section3Elem {
-
         height: auto;
         width: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
-
+    
     .sec3Txt {
         text-align: center;
     }
@@ -752,30 +674,23 @@
         justify-content: center;
     }
 
-
     .section3Elem {
         margin-top: 50px;
-
     }
 }
-
-
-
 
 @media screen and (max-width : 925px) {
     .slideTitle h1 {
         font-size: 4.5em;
-     
         font-family: "FRANK";
     }
 }
-
-
 
 @media screen and (max-width : 815px) {
     .slide {
         height: auto;
     }
+    
     .slideTitle h1 {
         font-size: 3.5em;
         font-family: "FRANK";
@@ -792,13 +707,12 @@
     }
 }
 
-
 @media screen and (max-width : 429px) {
     .title1.fondamentals, .title2.fondamentals {
         margin-left: 10px;
     }
-   
 }
+
 @media screen and (max-width : 377px) {
     .slideTitle h1 {
         font-size: 3em;
@@ -806,20 +720,18 @@
     } 
 }
 
-
 @media screen and (max-width : 364px) {
     .sec2Txt h1 {
         font-size: 3em;
         margin-left: 10px;
     }
+    
     .slideTitle p {
         width: 100%;
         font-size: 2em;
         line-height: 1.2;
     }
 }
-
-
 
 @media screen and (max-width : 1331px) {
     .subscrItem {
@@ -830,7 +742,6 @@
         box-shadow: 6px 10px 15px 0px rgba(0, 0, 0, 0.5);
     }
 }
-
 
 @media screen and (max-width : 1124px) {
     .secContent {
@@ -847,7 +758,6 @@
     }
 }
 
-
 @media screen and (max-width : 429px) {
     .subscrItem {
         width: 300px;
@@ -856,7 +766,6 @@
     .boul5 {
         display: none;
     }
-
 
     .secTxt5,
     .sect6Title {
