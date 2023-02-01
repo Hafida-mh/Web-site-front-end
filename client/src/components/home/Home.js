@@ -16,27 +16,22 @@ import Footer from '../footer/Footer'
 import Slideimg from '../../images/cedre/logo_Plan de travail 1 (4).png'
 export default function Home() {
   return (
-
     <div className='home'>
-
       <div className='navHome'> <NavBar linkaccueil="#slide" linkdecouvrir="#decouvrir" linkabonnement="#abonnement" linkfooter="#footer"/> </div>
-
-    <div className='slide' id="slide">
-        <img className='bgImg' src={ImgBg} />
-        <div className='logoSlide'> <img src={Slideimg} className="imgLogo" /></div>
-        <div className='slideTitle'>
-
-          <div> <h1> CEDRE QCM </h1>  </div>
-          <div className='slideTxt'> <p> Platforme de questions a choix miltiples pour les études medicales.
-            Support de preparation pour vos examens et concours.</p></div>
-
-          <div className='btnSlide'> <button> Découvrir </button></div>
-        </div>
-
+      <div className='slide' id="slide">
+            <img className='bgImg' src={ImgBg} />
+            <div className='logoSlide'> <img src={Slideimg} className="imgLogo" /></div>
+            <div className='slideTitle'>
+              <div> <h1> CEDRE QCM </h1>  </div>
+              <div className='slideTxt'> 
+              <p> Platforme de questions a choix miltiples pour les études medicales.
+              Support de preparation pour vos examens et concours.
+                </p>
+              </div>
+              <div className='btnSlide'> <button> Découvrir </button></div>
+           </div>
       </div> 
       
-
-
       <div className='section2' id="decouvrir">
         <div className='imgSec2'> <img src={ImgSect2} className="pc" />   <img src={Cercle} className="cercle" /></div>
         <div className='sec2Txt'>
@@ -52,8 +47,6 @@ export default function Home() {
         </div>
       </div>
 
-
-
       <div className='section3' id="sec3">
         <img src={Boule} className="boule" />
         <div className='section3Container'>
@@ -65,7 +58,6 @@ export default function Home() {
               <div className='sec3Title'>
                 <div> QCM multi sources</div>
               </div>
-
               <div className='sec3Txt'>
                 <p> Différentes sources de QCM sont proposées afin d'optimiser vos chances de réussite. </p>
               </div>
@@ -79,15 +71,12 @@ export default function Home() {
               <div className='sec3Title'>
                 <div> Platforme  de réussite </div>
               </div>
-
               <div className='sec3Txt'>
                 <p> Chaque QCM est accompagné d'un time tracking qui calcule votre temps de réponse plus un rapport de performance graphique qui résume vos résultats pour une meilleure préparation pour vos examens. </p>
               </div>
             </div>
-
           </div>
           <div className='section3Elem'>
-
             <div className='section3ElemContainer'>
               <div className='sec3img'>
                 <img src={Lib} className="paper" />
@@ -96,7 +85,6 @@ export default function Home() {
                 <div> Bibliothéque de doucments
                 </div>
               </div>
-
               <div className='sec3Txt'>
                 <p> le cedre QCM est désormais votre environnement de travail en dehors de QCM vous trouvez des documents utiles pour la préparation. </p>
               </div>
@@ -105,43 +93,28 @@ export default function Home() {
         </div>
       </div>
 
-
-
-
-
-
-
       <div className='section4'>
-
-     
         <div className='sec4Title'>
           <div> Comment utiliser le Cédre QCM ?</div>
         </div>
         <div className='sec4Steps'>
           <img src={ImgBg} className="bgSec4" />
           <div className='sec4StepsContainer'>
-
             <div className='sec4Item'>
               <div className='sec4Img'>  <img src={Compte} /> </div>
               <div className='sec4TitleItem'>Créez un compte </div>
             </div>
-
             <div className='sec4Item'>
               <div className='sec4Img'>  <img src={Compte} /> </div>
               <div className='sec4TitleItem'> Éssayez cédre QCM gratuitement </div>
             </div>
-
             <div className='sec4Item'>
               <div className='sec4Img'>  <img src={Compte} /> </div>
               <div className='sec4TitleItem abonnement'> Réglez votre Abonnement </div>
             </div>
-
-
           </div>
         </div>
       </div>
-
-
 
       <div className='section5' id="abonnement">
       <img src={Boule4} className="boul4" />
@@ -150,26 +123,18 @@ export default function Home() {
           <div className='secTxt5'> Abonnement</div>
           <div className='secContent'>
             <div className='subscrItem' >
-
-
               <div className='subscrItemTitle'>
-
                 <div>
                   <div className='title1 fondamentals'> LE CÉDRE FONDAMENTAL</div>
                   <div className='title2  fondamentals'> Tous les modules du cycle pré-clinique</div>
                 </div>
                 <div className='triangle'> </div>
               </div>
-
-
-
-
               <div className='prices'>
                 <div className='price1'> 1 500 Da/an</div>
                 <div className='price2'> 1 200 Da/an</div>
                 <div className='line'></div>
               </div>
-
               <div className='formule'>
                 <div className='formuleContent'>
                   <div className='formule1Title'> Formule destinée pour</div>
@@ -177,9 +142,6 @@ export default function Home() {
                 </div>
                 <div className='line'></div>
               </div>
-
-
-
               <div className='optionsFormule'>
                 <div className='optionsFormuleContent'>
                   <div className='optionsTitle'> Options</div>
@@ -197,32 +159,19 @@ export default function Home() {
               </div>
             </div>
 
-
-
-
-
-
             <div className='subscrItem' >
-
-
               <div className='subscrItemTitle  sub2'>
-
                 <div>
                   <div className='title1'> LE CÉDRE CLINIQUE</div>
                   <div className='title2'> Tous les modules du cycle clinique</div>
                 </div>
                 <div className='triangle tri2'> </div>
               </div>
-
-
-
-
               <div className='prices'>
                 <div className='price1'> 1 800 Da/an</div>
                 <div className='price2'> 1 500 Da/an</div>
                 <div className='line'></div>
               </div>
-
               <div className='formule'>
                 <div className='formuleContent'>
                   <div className='formule1Title'> Formule destinée pour</div>
@@ -230,9 +179,6 @@ export default function Home() {
                 </div>
                 <div className='line'></div>
               </div>
-
-
-
               <div className='optionsFormule'>
                 <div className='optionsFormuleContent'>
                   <div className='optionsTitle'> Options</div>
@@ -250,28 +196,19 @@ export default function Home() {
               </div>
             </div>
 
-
-
-
             <div className='subscrItem sub3' >
               <div className='subscrItemTitle sub3'>
-
                 <div>
                   <div className='title1'> LE CÉDRE INTÉGRAL</div>
                   <div className='title2'> Tous les modules du cycle clinique</div>
                 </div>
                 <div className='triangle tri3'> </div>
               </div>
-
-
-
-
               <div className='prices'>
                 <div className='price1'> 4 000 Da/an</div>
                 <div className='price2'> 2 500 Da/an</div>
                 <div className='line'></div>
               </div>
-
               <div className='formule'>
                 <div className='formuleContent'>
                   <div className='formule1Title'> Formule destinée pour</div>
@@ -279,9 +216,6 @@ export default function Home() {
                 </div>
                 <div className='line'></div>
               </div>
-
-
-
               <div className='optionsFormule'>
                 <div className='optionsFormuleContent'>
                   <div className='optionsTitle'> Options</div>
@@ -298,21 +232,16 @@ export default function Home() {
                 <div className='line bottom'></div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
 
+     <div className="section6"> 
+       <div className='sect6Title'> Réussissez vos éxamens</div>
+       <div className='btnSec6'> <button> Je m'inccris </button></div>
+     </div>
 
-<div className="section6"> 
-<div className='sect6Title'> Réussissez vos éxamens</div>
-<div className='btnSec6'> <button> Je m'inccris </button></div>
+     <div id="footer"> <Footer /></div>
 </div>
-
-
-
-<div id="footer"> <Footer /></div>
-
-    </div>
   )
 }
